@@ -1,0 +1,67 @@
+/* CSS Code, den es für die Start Page braucht */
+
+.header-image {
+    height: 300px;
+    background-size: cover; /* Quelle: Chatgpt */
+    background-position: center; /* Quelle: Chatgpt */
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Flexbox */
+.content {
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 12px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+
+/* Gewinnspiel Formular*/
+/*Quelle: Hilfe von Chatgpt */
+
+.item {
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#myForm {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+#myForm div {
+    margin-bottom: 20px;
+}
+ 
+#select {
+    width: 100%;
+    padding: 5px;
+}
+ 
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+input[type="text"],
+input[type="email"] {
+    width: calc(50% - 5px);
+    padding: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+ 
+input[type="email"] {
+    width: 100%;
+}
+ 
+button[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
